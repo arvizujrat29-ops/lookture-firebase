@@ -1,0 +1,13 @@
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system; background: #0b0b10; color: #eaeaf0; }
+.wrap { max-width: 960px; margin: 40px auto; padding: 0 16px; }
+h1 { font-size: 28px; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.card { background: #14141c; padding: 16px; border: 1px solid #232334; border-radius: 12px; }
+.placeholder { background: #1f1f2e; height: 160px; border-radius: 8px; display:flex; align-items:center; justify-content:center; color:#9aa; }
+.form { display: grid; gap: 8px; max-width: 520px; }
+input { padding: 10px 12px; border-radius: 8px; border: 1px solid #2a2a3b; background:#0f0f18; color:#eee; }
+button { padding: 10px 14px; border-radius: 8px; border: 1px solid #2a2a3b; background:#5a5af7; color:white; cursor:pointer; }
+button:hover { filter: brightness(1.1); }
+hr { border: none; border-top: 1px solid #232334; margin: 24px 0; }
